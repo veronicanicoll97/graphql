@@ -1,0 +1,5 @@
+extend type Query {
+    personas(
+        id: ID
+    ): Persona
+}

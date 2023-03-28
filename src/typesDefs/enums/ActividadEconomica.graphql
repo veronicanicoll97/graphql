@@ -1,0 +1,7 @@
+enum ActividadEconomica {
+    INFORMATICO
+    CARPINTERO
+    DOCENTE
+    ELECTRICISTA
+    OTRO
+}

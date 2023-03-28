@@ -1,0 +1,7 @@
+module.exports = {
+    "INFORMATICO": "INFORMATICO",
+    "CARPINTERO": "CARPINTERO",
+    "DOCENTE": "DOCENTE",
+    "ELECTRICISTA": "ELECTRICISTA",
+    "OTRO": "OTRO"
+}

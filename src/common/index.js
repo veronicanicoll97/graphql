@@ -1,0 +1,1 @@
+exports.getTypeDefs = require("./getTypeDefs")

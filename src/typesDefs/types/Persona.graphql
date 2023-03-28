@@ -1,0 +1,9 @@
+type Persona implements PersonaInterface {
+    tipoPersona: TipoPersona
+    idPersona: ID
+    actividadEconomica: ActividadEconomica
+    idCiudad: ID
+    fechaInsercion: String
+    fechaActualizacion: String
+    tipo: TipoPersonaUnion
+}

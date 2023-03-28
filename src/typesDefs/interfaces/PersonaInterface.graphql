@@ -1,0 +1,3 @@
+interface PersonaInterface {
+    tipoPersona: TipoPersona
+}

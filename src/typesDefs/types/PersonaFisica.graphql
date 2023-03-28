@@ -1,0 +1,10 @@
+type PersonaFisica {
+    idPersona: ID
+    nombres: String
+    apellidos: String
+    idPaisNacimiento: Int
+    fechaNacimiento: String
+    estadoCivil: EstadoCivil
+    fechaHoraInsercion: String
+    fechaHoraActualizacion: String
+}

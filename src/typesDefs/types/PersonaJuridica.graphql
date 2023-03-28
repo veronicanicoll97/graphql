@@ -1,0 +1,8 @@
+type PersonaJuridica {
+    idPersona: ID
+    razonSocial: String
+    nombreFantasia: String
+    descripcion: String
+    fechaHoraInsercion: String
+    fechaHoraActualizacion: String
+}
