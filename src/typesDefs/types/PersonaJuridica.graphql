@@ -1,8 +1,10 @@
-type PersonaJuridica {
-    idPersona: ID
+type PersonaJuridica implements Persona {
     razonSocial: String
     nombreFantasia: String
-    descripcion: String
-    fechaHoraInsercion: String
-    fechaHoraActualizacion: String
+    tipoPersona: TipoPersona
+    idPersona: ID
+    actividadEconomica: ActividadEconomica
+    idCiudad: ID
+    fechaInsercion: String
+    fechaActualizacion: String
 }

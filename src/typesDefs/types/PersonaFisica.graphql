@@ -1,10 +1,13 @@
-type PersonaFisica {
+type PersonaFisica implements Persona {
+    tipoPersona: TipoPersona
     idPersona: ID
+    actividadEconomica: ActividadEconomica
+    idCiudad: ID
+    fechaInsercion: String
+    fechaActualizacion: String
     nombres: String
     apellidos: String
     idPaisNacimiento: Int
     fechaNacimiento: String
     estadoCivil: EstadoCivil
-    fechaHoraInsercion: String
-    fechaHoraActualizacion: String
 }
